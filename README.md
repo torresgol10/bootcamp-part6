@@ -1,4 +1,4 @@
-# Example
+# Configura el linter ESLint y DEPLOY de tu API con Heroku 🚀 - Bootcamp FullStack JavaScript Gratuito
 
 To run this example:
 
