@@ -60,7 +60,7 @@ app.post("/api/notes", (request, response) => {
   response.json(newNote);
 });
 
-const PORT = 8080;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`Ya se ha levantado el server ${PORT}`);
 });
